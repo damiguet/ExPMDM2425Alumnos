@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">HazloBienAPP</string>
+    <string name="action_buscar">buscar</string>
+    <string name="archivo">archivo</string>
+    <string name="action_opciones">opciones</string>
+    <string name="action_salir">salir</string>
+    <string name="action_preferences">Preferencias</string>
+    <string name="checkbox">Selecciona checkbox</string>
+    <string name="guardar">Guardar</string>
+    <string name="RadioButton1">Opcion 1</string>
+    <string name="radioButton2">Opcion 2</string>
+    <string name="radioButton3">Opcion 3</string>
+    <string name="seleccion">Seleccion</string>
+    <string name="preferencias">PREFERENCIAS</string>
+    <string name="nombre">Nombre:</string>
+    <string name="restaurar">restaurar</string>
+    <string name="nombre_playa">nombre_playa</string>
+    <string name="municipio">municipio</string>
+    <string name="suelo">suelo</string>
+    <string name="favoritos">favoritos</string>
+    <string name="Resolver">Resolver</string>
+    <string name="q1">Pregunta 1: Nos permite pasar información entre aplicaciones</string>
+    <string name="q2">Pregunta 2: selecciona los métodos del ciclo de vida de un fragmento </string>
+    <string name="q3">Pregunta 3: ¿cuales son los beneficios de una app nativa?</string>
+    <string name="q1_1">Activity</string>
+    <string name="q1_2">Intent</string>
+    <string name="q1_3">Context</string>
+    <string name="q2_oncreate">OnCreate</string>
+    <string name="q2_onstart">OnStart</string>
+    <string name="q2_ondestroy">OnDestroy</string>
+    <string name="q2_onrestart">OnRestart</string>
+    <string name="q2_onstop">OnStop</string>
+    <string name="q2_ondetach">OnDetach</string>
+
+</resources>

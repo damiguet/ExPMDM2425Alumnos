@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:backgroundTint="#E5446D"
+    app:cardCornerRadius="16dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/filaNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/nombre_playa"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/filaMunicipio"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/municipio"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/filaNombre" />
+
+        <TextView
+            android:id="@+id/filaSuelo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/suelo"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/filaMunicipio" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
